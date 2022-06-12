@@ -1,2 +1,3 @@
 # CodingInterviewPractice
-Different coding problems for Interviews
+Solutions for coding problems on LeetCode.
+
