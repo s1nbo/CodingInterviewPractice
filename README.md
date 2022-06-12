@@ -1,3 +1,3 @@
 # CodingInterviewPractice
-Solutions for coding problems on Leetcode.
+Solutions for coding problems on LeetCode.
 
