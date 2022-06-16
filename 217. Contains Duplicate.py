@@ -10,9 +10,11 @@ class Solution:
                 appeared[i] = True
         
         return False
-                
+
+
 """
 Input: array of integers
+Output: boolean
 
 This code uses a Hashmap or Dictonary to store the values that appeared with type Integer -> Boolean.
 It iterates through the list and checks if the value is in the dictionary.
