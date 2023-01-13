@@ -5,7 +5,7 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def maxDepth(self, root: Optional[TreeNode]) -> int:
+    def maxDepth(self, root) -> int:
         
         if root == None:
             return 0
@@ -27,4 +27,5 @@ We return 0 if the root is None.
 We return the max of the left and right depths + 1.
 
 Time Complexity: O(n)
+Space Complexity: O(n)
 """
