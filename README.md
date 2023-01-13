@@ -1,4 +1,3 @@
 # CodingInterviewPractice
 Solutions for coding problems on LeetCode.
-Requires Python 3.10.
-Number of problems solved: 15
+Requires Python 3.10.0 or higher.
