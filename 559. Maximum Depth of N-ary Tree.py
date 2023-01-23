@@ -18,6 +18,7 @@ class Solution:
         
         return answer + 1
 
+
 """
 Input: root of a n-ary tree
 Output: integer
