@@ -34,3 +34,29 @@ class MinStack:
 # obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.getMin()
+
+
+"""
+Input: None
+Output: None
+
+We initialize two stacks. One for the stack and one for the minstack.
+
+We define a push method that takes in a value.
+We append the value to the stack.
+
+If the minstack is not empty, we append the minimum of the value and the last value of the minstack to the minstack.
+If the minstack is empty, we append the value to the minstack.
+
+We define a pop method that takes in no value.
+We pop the last value of the stack.
+
+We define a top method that takes in no value.
+We return the last value of the stack.
+
+We define a getMin method that takes in no value.
+We return the last value of the minstack.
+
+Time Complexity: O(1)
+Space Complexity: O(n)
+"""
