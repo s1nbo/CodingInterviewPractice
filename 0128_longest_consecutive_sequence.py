@@ -18,8 +18,8 @@ class Solution:
 
 
 """
-Input: List of integers
-Output: Integer
+Input: list of integers
+Output: integer
 
 We convert the list to a set. This takes O(n) time and O(n) space. 
 But it allows us to check if a number is in the set in O(1) time.
