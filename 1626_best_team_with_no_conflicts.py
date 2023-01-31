@@ -26,6 +26,8 @@ We iterate through the players and set the dp value to the current player's scor
 
 Then we iterate through the players again and check if the current player's score is greater than the previous player's score.
 If it is, we set the dp value to the max of the current dp value and the previous player's dp value plus the current player's score.
+(If one of the previous players score is smaller than the current player's score, we can add the score of the previous player to the current player's score
+or we can just take the current player's score) 
 
 Finally, we return the max value in the dp array.
 
