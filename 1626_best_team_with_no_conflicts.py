@@ -28,7 +28,8 @@ Then we iterate through the players again and check if the current player's scor
 If it is, we set the dp value to the max of the current dp value and the previous player's dp value plus the current player's score.
 
 Finally, we return the max value in the dp array.
-(This represents the max score for the best team)
+
+Type: Dynamic Programming
 
 Time Complexity: O(n^2)
 Space Complexity: O(n)
