@@ -3,7 +3,7 @@ class Solution:
         left = 0
         best = 1
         current = 0
-        distinct_fruits = [fruits[0]]
+        basket = [fruits[0]]
         
         if len(fruits) < 3:
             return len(fruits)
