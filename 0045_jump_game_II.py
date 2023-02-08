@@ -1,5 +1,5 @@
 class Solution:
-    def jump(self, nums: List[int]) -> int:
+    def jump(self, nums) -> int:
         counter = 0
         left = right = 0
 
