@@ -10,13 +10,17 @@ class Solution:
         if root == None:
             return 0
 
+        """
         leftDepth = self.maxDepth(root.left)
         rightDepth = self.maxDepth(root.right)
 
         if leftDepth > rightDepth:
-            return leftDepth + 1
+            return leftDepth +1
         else:
             return rightDepth + 1
+        """
+        
+        return max(self.maxDepth(root.left), self.maxDepth(root.right)) +1
 
 """
 Input: root of a binary tree
