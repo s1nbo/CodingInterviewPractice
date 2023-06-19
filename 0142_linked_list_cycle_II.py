@@ -49,7 +49,7 @@ We move slow one node forward.
 
 We return slow when it is equal to fast.
 
-Time Complexity: O(N)
+Time Complexity: O(n)
 Space Complexity: O(1)
 """
         
