@@ -26,7 +26,7 @@ class Solution:
 
 
 """
-Nice Answer:
+Nice Answer: (Not mine)
 pairs = 0
 cnt = Counter(tuple(row) for row in grid)
 for tpl in zip(*grid):
