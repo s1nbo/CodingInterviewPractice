@@ -1,5 +1,6 @@
 class Solution:
     def permute(self, nums: list[int]) -> list[list[int]]:
+        #One liner: return itertools.permutations(nums) 
         ans = []
 
         # base case
