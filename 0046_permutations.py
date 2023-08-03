@@ -6,7 +6,6 @@ class Solution:
         # base case
         if(len(nums) == 1):
             return [nums.copy()]
-
         
         for _ in range(len(nums)):
             first = nums.pop(0)
