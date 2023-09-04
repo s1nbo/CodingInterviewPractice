@@ -11,7 +11,6 @@ class Solution:
                 
                 ans += strs[0][i]
                     
-        
         return ans
             
 
