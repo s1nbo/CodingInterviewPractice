@@ -14,6 +14,5 @@ class Solution:
 
         return ans
 
-
-sol = Solution()
-print(sol.numIdenticalPairs([1,2,3,1,1,3]))
+# Time Complexity: O(n)
+# Space Complexity: O(n)
