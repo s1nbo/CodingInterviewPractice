@@ -5,3 +5,6 @@ class Solution:
             elem_amount[i] = elem_amount.get(i,0) + 1
         
         return [i for i in elem_amount if elem_amount[i] >  len(nums)//3]
+
+# Time Complexity: O(n)
+# Space Complexity: O(n)
