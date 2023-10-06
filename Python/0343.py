@@ -11,5 +11,5 @@ class Solution:
             case 2:
                 return 3 ** exp * 2
 
-# Time Complexity: O(1)
+# Time Complexity: O(log(n))
 # Space Complexity: O(1)
