@@ -3,29 +3,19 @@ class Solution:
         if len(s) != len(t):
             return False
         
-        letters_in_s = {} # maps letters (char) -> how often they appeared s
-        letters_in_t = {} # maps letters (char) -> how often they appeared t
+        letters_s = {} # maps letters (char) -> how often they appeared s
+        letters_t = {} # maps letters (char) -> how often they appeared t
 
         # iterate through s and t and add the letters to the dictionaries
         for i in s:
-            if i in letters_in_s:
-                letters_in_s[i] += 1
-            else:
-                 letters_in_s[i] = 1
-
+            letters_s[i] = letters_s.get(i, 0) + 1
         for i in t:
-            if i in letters_in_t:
-                letters_in_t[i] += 1
-            else:
-                 letters_in_t[i] = 1
+            letters_t[i] = letters_t.get(i, 0) + 1
         
         # check if the dictionaries are equal
-        for i in letters_in_s:
-            if i in letters_in_t: # important, because if i is not in letters_in_t, it will be a key error
-                if letters_in_s[i] != letters_in_t[i]:
-                    return False
-            else:
-                return False
+        for i in letters_s:
+            if i in letters_t and letters_s[i] == letters_t[i]: continue
+            else: return False
         
         return True
    
