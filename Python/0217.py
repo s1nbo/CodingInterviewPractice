@@ -1,8 +1,8 @@
 class Solution:
     def containsDuplicate(self, nums: list[int]) -> bool:
+        return len(nums) != len(set(nums))
+        """
         appeared = {} # Stores values that appeared int -> Bool
-        
-        
         for i in nums:
             if i in appeared:
                 return True
@@ -10,8 +10,7 @@ class Solution:
                 appeared[i] = True
         
         return False
-
-
+        """
 """
 Input: array of integers
 Output: boolean
