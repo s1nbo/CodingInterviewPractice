@@ -16,6 +16,7 @@ public:
 
         dp[steps][idx] = tmp % MOD;
         return dp[steps][idx];
-
     }
 };
+// Time Complexity: O(n*m) n = steps, m = arrLen
+// Space Complexity: O(n*m) 
