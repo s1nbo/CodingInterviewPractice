@@ -9,5 +9,3 @@ class Solution:
             ans += max(s_count[i]-t_count[i], 0)
         
         return ans
-
-        
