@@ -6,7 +6,7 @@ public:
 
         while(first < nums1.size() && second < nums2.size()){
             if (nums1[first] == nums2[second]) return nums1[first];
-            nums1[first] > nums2[second] ? second++ : first++;
+            nums1[first] > nums2[second] ? ++second : ++first;
         }
         return -1;
     }
