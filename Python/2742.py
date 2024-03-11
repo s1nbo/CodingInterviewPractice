@@ -15,7 +15,8 @@ class Solution:
             dp[(i, remain)] = min(skip, paint)
             return dp[(i, remain)]
 
-        return dfs(0, len(cost))
-    
+        return int(dfs(0, len(cost))) # Not safe to return float("inf") as the answer
+
+# Topic: Dynamic Programming
 # Time complexity: O(n * k)
 # Space complexity: O(n * k) 
