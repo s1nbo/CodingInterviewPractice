@@ -9,5 +9,5 @@ class Solution:
         return 0
 
 # Topic: Array
-# Time Complexity: O(n)
+# Time Complexity: O(nlogn)
 # Space Complexity: O(1)
