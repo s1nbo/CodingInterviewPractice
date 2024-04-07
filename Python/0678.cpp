@@ -1,6 +1,8 @@
+#include <string>
+
 class Solution {
 public:
-    bool checkValidString(string s) {
+    bool checkValidString(std::string s) {
         int open_count = 0, close_count = 0;
 
         for(int i = 0; i < s.length(); i++){
