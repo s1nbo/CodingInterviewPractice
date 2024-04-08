@@ -1,8 +1,10 @@
+#include <vector>
+
 class Solution {
 public:
-    int countStudents(vector<int>& students, vector<int>& sandwiches) {
+    int countStudents(std::vector<int>& students, std::vector<int>& sandwiches) {
         int ans = students.size();
-        vector<int> count = {0, 0};
+        std::vector<int> count = {0, 0};
         for(int student : students) {
             count[student]++;
         }
