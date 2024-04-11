@@ -13,3 +13,6 @@ class Solution:
 
         return ans if ans else "0"
             
+# Topic: Stack
+# Time Complexity: O(n)
+# Space Complexity: O(n)
