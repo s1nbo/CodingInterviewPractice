@@ -28,6 +28,6 @@ class Solution:
 
         return ans 
 
-# Topic: Dfs
+# Topic: DFS
 # Time Complexity: O(n*m)
-# Space Complexity: O(1)
+# Space Complexity: O(n*m)

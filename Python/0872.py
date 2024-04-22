@@ -16,7 +16,7 @@ class Solution:
             self.sequence(cur.right, ans)
         return ans
         
-    def leafSimilar(self, root1: [TreeNode], root2: [TreeNode]) -> bool:
+    def leafSimilar(self, root1: list[TreeNode], root2: list[TreeNode]) -> bool:
         return self.sequence(root1, []) == self.sequence(root2, [])
 
 # Topics: Tree, DFS

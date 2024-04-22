@@ -19,7 +19,7 @@ class Solution:
         self.ans = max(self.ans, abs(minimum - node.val), abs(maximum - node.val))
         return minimum, maximum
 
-    def maxAncestorDiff(self, root: [TreeNode]) -> int:
+    def maxAncestorDiff(self, root: list[TreeNode]) -> int:
         self.dfs(root, self.ans)
         return self.ans
 
