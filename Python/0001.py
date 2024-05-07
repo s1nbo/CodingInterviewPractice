@@ -6,7 +6,7 @@ class Solution:
             if nums[i] in number_required: # if current value is in the dictionary we have found a solution
                 return [i, number_required[nums[i]]]
             else:
-                number_required[target-nums[i]] = i # add the value we need to find to the dictionary
+                number_required[target-nums[i]] = i 
         
 
 """
