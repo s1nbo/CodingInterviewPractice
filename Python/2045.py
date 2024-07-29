@@ -14,8 +14,6 @@ class Solution:
             graph[u].append(v)
             graph[v].append(u)
 
-
-
         # BFS
         while queue:
             for i in range(len(queue)):
