@@ -44,4 +44,4 @@ class Solution:
 
 # Topic: Math, Stack
 # Time Complexity: O(1), since the input is always 32-bit integer
-# Space Complexity: O(1), 
+# Space Complexity: O(1)
