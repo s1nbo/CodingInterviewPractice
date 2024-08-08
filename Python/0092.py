@@ -5,7 +5,7 @@ class ListNode:
         self.next = next
 
 class Solution:
-    def reverseBetween(self, head: [ListNode], left: int, right: int) -> [ListNode]:
+    def reverseBetween(self, head: [ListNode], left: int, right: int) -> [ListNode]: # type: ignore
         # 1
         start = ListNode(None, head)
         # 2
