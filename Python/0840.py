@@ -35,6 +35,6 @@ class Solution:
 
         return ans
     
-# Topic: Array, Bruteforce
+# Topic: Array, Brute force
 # Time Complexity: O(rows*cols)
 # Space Complexity: O(1)
