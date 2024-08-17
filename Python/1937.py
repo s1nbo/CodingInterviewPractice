@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     def maxPoints(self, points: List[List[int]]) -> int:
         ROWS, COLS = len(points), len(points[0])
