@@ -13,7 +13,7 @@ class Solution:
             amount += 1
             cur = cur.next
         # 2
-        length, rest = amount // k, amount % k
+        length, rest = divmod(amount, k)
         # 3
         answer = []
         cur = head
