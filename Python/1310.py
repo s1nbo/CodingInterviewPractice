@@ -17,5 +17,6 @@ class Solution:
     
 
 # Topic: Bit Manipulation
-# Time Complexity: O(n + m)
-# Space Complexity: O(1)     
+# Time Complexity: O(n + q)
+# Space Complexity: O(1), no extra space used
+# Total Space Complexity: O(n + q)    
