@@ -10,3 +10,7 @@ class Solution:
             return '0'
 
         return ''.join(ans)
+
+# Topic: Greedy, Sorting
+# Time Complexity: O(n log n)
+# Space Complexity: O(n) 
